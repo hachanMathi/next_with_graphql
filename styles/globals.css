@@ -14,3 +14,112 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.navbar {
+  
+  background: rgb(6, 12, 38);
+  background: linear-gradient(90deg, rgba(6, 12, 38, 1) 0%, rgba(2, 27, 76, 1) 82%);
+  height: 5%;
+  width: 100%;
+  overflow: hidden;
+  scrollbar-width: none;
+}
+
+.card-width {
+  width: 50% !important;
+  margin: 5% 0 0 10% !important;
+}
+
+.connect-mongoose {
+  margin-left: 25%;
+}
+
+.graphql {
+  margin-left: 15%;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.forNavigation {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 3px 30px 10px 10px
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.backGroundImage {
+  background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette_1258-48251.jpg');
+  height: 100% !important;
+  position: fixed;
+  margin: auto;
+  min-width: 100%;
+  min-height: 100%;
+  margin-top: '-70px';
+  font-size: '100px';
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.forComputerImg {
+  padding-top: 50px
+}
+
+.forContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 30px 10px 10px
+}
+
+.forIcons {
+  font-size: 30px;
+  padding-right: 35px;
+  color: white
+}
+
+.forIcons:hover {
+  cursor: pointer;
+}
+
+.opacityImg {
+  opacity: 0.1;
+}
+
+h1 {
+  color: white;
+}
+
+.forHeading {
+  font-size: 50px
+}
+
+.collabration {
+  color: #b0a3a3;
+  text-align: left !important;
+  font-size: 10px;
+}
+
+.forPaddingRight {
+  padding-right: 25px;
+}
+
+.fontColorChange {
+  color: white
+}
+
+label {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.Home_container__1EcsU {
+  display: block !important;
+  padding: unset !important;
+}
